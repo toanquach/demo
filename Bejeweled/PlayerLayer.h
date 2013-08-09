@@ -11,6 +11,7 @@
 
 @interface PlayerLayer : CCLayer {
     
+    int _localtions[kRows][kCols];
 }
 
 +(CCScene *) scene;

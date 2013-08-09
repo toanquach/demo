@@ -27,6 +27,9 @@
     if (self = [super init])
     {
         CGSize winSize = [CCDirector sharedDirector].winSize;
+        // **************************************************
+        //      Add background image
+        //
         CCSprite *backgroundImage = [CCSprite spriteWithFile:@"Screenshot 2013.08.09 14.24.31.png"];
         backgroundImage.position = ccp(winSize.width/2,winSize.height/2);
         [self addChild:backgroundImage z:-2];

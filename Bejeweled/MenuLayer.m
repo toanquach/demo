@@ -77,7 +77,8 @@
 
 - (void)infoPressed
 {
-    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil message:@"Menu clicked" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    [alertView show];
 }
 
 @end
