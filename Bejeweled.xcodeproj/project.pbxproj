@@ -154,6 +154,14 @@
 		6A66359D17B4D5D400CFE626 /* menu02_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A66359817B4D5D400CFE626 /* menu02_hover.png */; };
 		6A66359F17B4D60500CFE626 /* WoodRetroApple_iPad_HomeScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A66359E17B4D60500CFE626 /* WoodRetroApple_iPad_HomeScreen.jpg */; };
 		6A6635A217B4DC2400CFE626 /* PlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6635A117B4DC2300CFE626 /* PlayerLayer.m */; };
+		6A6635AB17B4E4B900CFE626 /* gem_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6635A417B4E4B900CFE626 /* gem_00.png */; };
+		6A6635AC17B4E4B900CFE626 /* gem_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6635A517B4E4B900CFE626 /* gem_01.png */; };
+		6A6635AD17B4E4B900CFE626 /* gem_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6635A617B4E4B900CFE626 /* gem_02.png */; };
+		6A6635AE17B4E4B900CFE626 /* gem_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6635A717B4E4B900CFE626 /* gem_03.png */; };
+		6A6635AF17B4E4B900CFE626 /* gem_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6635A817B4E4B900CFE626 /* gem_04.png */; };
+		6A6635B017B4E4B900CFE626 /* gem_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6635A917B4E4B900CFE626 /* gem_05.png */; };
+		6A6635B117B4E4B900CFE626 /* gem_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6635AA17B4E4B900CFE626 /* gem_06.png */; };
+		6A6635B417B4E63900CFE626 /* GemLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6635B317B4E63900CFE626 /* GemLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -454,6 +462,15 @@
 		6A6635A017B4DC2300CFE626 /* PlayerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLayer.h; sourceTree = "<group>"; };
 		6A6635A117B4DC2300CFE626 /* PlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLayer.m; sourceTree = "<group>"; };
 		6A6635A317B4E3A600CFE626 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		6A6635A417B4E4B900CFE626 /* gem_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_00.png; sourceTree = "<group>"; };
+		6A6635A517B4E4B900CFE626 /* gem_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_01.png; sourceTree = "<group>"; };
+		6A6635A617B4E4B900CFE626 /* gem_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_02.png; sourceTree = "<group>"; };
+		6A6635A717B4E4B900CFE626 /* gem_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_03.png; sourceTree = "<group>"; };
+		6A6635A817B4E4B900CFE626 /* gem_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_04.png; sourceTree = "<group>"; };
+		6A6635A917B4E4B900CFE626 /* gem_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_05.png; sourceTree = "<group>"; };
+		6A6635AA17B4E4B900CFE626 /* gem_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_06.png; sourceTree = "<group>"; };
+		6A6635B217B4E63900CFE626 /* GemLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GemLayer.h; sourceTree = "<group>"; };
+		6A6635B317B4E63900CFE626 /* GemLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GemLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -524,6 +541,8 @@
 				6A66359117B4D25000CFE626 /* MenuLayer.m */,
 				6A6635A017B4DC2300CFE626 /* PlayerLayer.h */,
 				6A6635A117B4DC2300CFE626 /* PlayerLayer.m */,
+				6A6635B217B4E63900CFE626 /* GemLayer.h */,
+				6A6635B317B4E63900CFE626 /* GemLayer.m */,
 				6A6633D817B4CF0100CFE626 /* Resources */,
 				6A6633F017B4CF0200CFE626 /* libs */,
 				6A66356417B4CF0600CFE626 /* Supporting Files */,
@@ -919,6 +938,13 @@
 		6A66357617B4D18500CFE626 /* gems */ = {
 			isa = PBXGroup;
 			children = (
+				6A6635A417B4E4B900CFE626 /* gem_00.png */,
+				6A6635A517B4E4B900CFE626 /* gem_01.png */,
+				6A6635A617B4E4B900CFE626 /* gem_02.png */,
+				6A6635A717B4E4B900CFE626 /* gem_03.png */,
+				6A6635A817B4E4B900CFE626 /* gem_04.png */,
+				6A6635A917B4E4B900CFE626 /* gem_05.png */,
+				6A6635AA17B4E4B900CFE626 /* gem_06.png */,
 			);
 			name = gems;
 			path = Resources/gems;
@@ -1025,6 +1051,13 @@
 				6A66359C17B4D5D400CFE626 /* menu02.png in Resources */,
 				6A66359D17B4D5D400CFE626 /* menu02_hover.png in Resources */,
 				6A66359F17B4D60500CFE626 /* WoodRetroApple_iPad_HomeScreen.jpg in Resources */,
+				6A6635AB17B4E4B900CFE626 /* gem_00.png in Resources */,
+				6A6635AC17B4E4B900CFE626 /* gem_01.png in Resources */,
+				6A6635AD17B4E4B900CFE626 /* gem_02.png in Resources */,
+				6A6635AE17B4E4B900CFE626 /* gem_03.png in Resources */,
+				6A6635AF17B4E4B900CFE626 /* gem_04.png in Resources */,
+				6A6635B017B4E4B900CFE626 /* gem_05.png in Resources */,
+				6A6635B117B4E4B900CFE626 /* gem_06.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1149,6 +1182,7 @@
 				6A66357017B4CF0600CFE626 /* IntroLayer.m in Sources */,
 				6A66359217B4D25000CFE626 /* MenuLayer.m in Sources */,
 				6A6635A217B4DC2400CFE626 /* PlayerLayer.m in Sources */,
+				6A6635B417B4E63900CFE626 /* GemLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1205,6 +1239,7 @@
 				GCC_PREFIX_HEADER = Bejeweled/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Bejeweled/libs/kazmath/include\"";
 				INFOPLIST_FILE = Bejeweled/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1224,6 +1259,7 @@
 				GCC_PREFIX_HEADER = Bejeweled/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Bejeweled/libs/kazmath/include\"";
 				INFOPLIST_FILE = Bejeweled/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",

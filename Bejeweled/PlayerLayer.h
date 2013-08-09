@@ -8,12 +8,18 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "GemLayer.h"
 
 @interface PlayerLayer : CCLayer {
     
-    int _localtions[kRows][kCols];
+    int _locations[kRows][kCols];
+    GemLayer *gems[kRows][kCols];
 }
 
+@property(nonatomic) int level;
+
 +(CCScene *) scene;
+
+- (void)initGame;
 
 @end

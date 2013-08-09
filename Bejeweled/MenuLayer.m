@@ -50,9 +50,6 @@
         CCMenuItemImage *menu02 = [CCMenuItemImage itemWithNormalImage:@"menu02.png" selectedImage:@"menu02_hover.png" target:self selector:@selector(infoPressed)];
         
         CCMenu *menu = [CCMenu menuWithItems:menu01,menu02, nil];
-        [menu alignItemsVerticallyWithPadding:15];
-        menu.position = ccp(winSize.width/2,winSize.height - 200);
-        [self addChild:menu];
         
         if (!IS_RETINA)
         {
@@ -60,6 +57,19 @@
             menu02.scale = 0.5;
             menu01.scale = 0.5;
         }
+        
+        if (IS_IPHONE_5)
+        {
+            menu.position = ccp(winSize.width/2,winSize.height - 200);
+            [menu alignItemsVerticallyWithPadding:15];
+        }
+        else
+        {
+            menu.position = ccp(winSize.width/2,winSize.height - 250);
+            [menu alignItemsVertically];
+        }
+        
+        [self addChild:menu];
     }
     
     return self;
@@ -72,7 +82,7 @@
     CCScene *playerScene = [PlayerLayer scene];
     //CCTransitionFlipAngular *transition = [CCTransitionFlipAngular transitionWithDuration:0.5f scene:MonsterRunScene];
     CCTransitionMoveInR *transition = [CCTransitionMoveInR transitionWithDuration:0.5f scene:playerScene];
-    [[CCDirector sharedDirector] replaceScene:transition];
+    [[CCDirector sharedDirector] pushScene:transition];
 }
 
 - (void)infoPressed
