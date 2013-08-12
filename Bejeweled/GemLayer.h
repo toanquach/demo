@@ -18,4 +18,8 @@
 @property(nonatomic) int row;
 @property(nonatomic) int col;
 
+-(id)initWithGemLayer:(GemLayer *)gem;
+
+-(BOOL) isNeighbor:(GemLayer *)other;
+
 @end

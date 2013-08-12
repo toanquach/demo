@@ -40,4 +40,5 @@
 #define kGameAreaStartY         320
 #define kGameAreaHeight         320
 
+#define kGame_FocusGem_Tag      111
 #endif

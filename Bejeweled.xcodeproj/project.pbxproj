@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0E377617B8D54800F08FE9 /* focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A0E377517B8D54800F08FE9 /* focus.png */; };
+		6A0E377B17B8D55100F08FE9 /* fall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A0E377817B8D55100F08FE9 /* fall.wav */; };
+		6A0E377C17B8D55100F08FE9 /* match.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A0E377917B8D55100F08FE9 /* match.wav */; };
+		6A0E377D17B8D55100F08FE9 /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A0E377A17B8D55100F08FE9 /* select.wav */; };
 		6A6633C417B4CF0100CFE626 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6633C317B4CF0100CFE626 /* QuartzCore.framework */; };
 		6A6633C617B4CF0100CFE626 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6633C517B4CF0100CFE626 /* OpenGLES.framework */; };
 		6A6633C817B4CF0100CFE626 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6633C717B4CF0100CFE626 /* OpenAL.framework */; };
@@ -165,6 +169,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A0E377517B8D54800F08FE9 /* focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = focus.png; sourceTree = "<group>"; };
+		6A0E377817B8D55100F08FE9 /* fall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fall.wav; sourceTree = "<group>"; };
+		6A0E377917B8D55100F08FE9 /* match.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = match.wav; sourceTree = "<group>"; };
+		6A0E377A17B8D55100F08FE9 /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = select.wav; sourceTree = "<group>"; };
 		6A6633C017B4CF0100CFE626 /* Bejeweled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bejeweled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6633C317B4CF0100CFE626 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6A6633C517B4CF0100CFE626 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -494,6 +502,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A0E377717B8D55100F08FE9 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E377817B8D55100F08FE9 /* fall.wav */,
+				6A0E377917B8D55100F08FE9 /* match.wav */,
+				6A0E377A17B8D55100F08FE9 /* select.wav */,
+			);
+			name = media;
+			path = Resources/media;
+			sourceTree = "<group>";
+		};
 		6A6633B717B4CF0100CFE626 = {
 			isa = PBXGroup;
 			children = (
@@ -553,6 +572,7 @@
 		6A6633D817B4CF0100CFE626 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6A0E377717B8D55100F08FE9 /* media */,
 				6A66359317B4D5D400CFE626 /* images */,
 				6A66357617B4D18500CFE626 /* gems */,
 				6A66357E17B4D18500CFE626 /* screenshot */,
@@ -966,6 +986,7 @@
 		6A66359317B4D5D400CFE626 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6A0E377517B8D54800F08FE9 /* focus.png */,
 				6A66359E17B4D60500CFE626 /* WoodRetroApple_iPad_HomeScreen.jpg */,
 				6A66359417B4D5D400CFE626 /* bejeweled_logo.png */,
 				6A66359517B4D5D400CFE626 /* menu01.png */,
@@ -1058,6 +1079,10 @@
 				6A6635AF17B4E4B900CFE626 /* gem_04.png in Resources */,
 				6A6635B017B4E4B900CFE626 /* gem_05.png in Resources */,
 				6A6635B117B4E4B900CFE626 /* gem_06.png in Resources */,
+				6A0E377617B8D54800F08FE9 /* focus.png in Resources */,
+				6A0E377B17B8D55100F08FE9 /* fall.wav in Resources */,
+				6A0E377C17B8D55100F08FE9 /* match.wav in Resources */,
+				6A0E377D17B8D55100F08FE9 /* select.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
