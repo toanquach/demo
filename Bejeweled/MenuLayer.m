@@ -70,7 +70,12 @@
         }
         
         [self addChild:menu];
+        
+//        NSLog(@">>>>>>menu: %@",NSStringFromCGPoint(menu.anchorPoint));
+
     }
+    
+//    NSLog(@">>>>>>self: %@",NSStringFromCGRect(self.boundingBox));
     
     return self;
 }

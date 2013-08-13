@@ -21,13 +21,13 @@
 #define             kGem_Orange     5
 #define             kGem_Blue       6
 
-#define             kGem_White_FileName      @"gem_00.png"
-#define             kGem_Green_FileName      @"gem_01.png"
-#define             kGem_Yellow_FileName     @"gem_02.png"
-#define             kGem_Red_FileName        @"gem_03.png"
-#define             kGem_Purple_FileName     @"gem_04.png"
-#define             kGem_Orange_FileName     @"gem_05.png"
-#define             kGem_Blue_FileName       @"gem_06.png"
+#define             kGem_White_FileName      @"white.png"
+#define             kGem_Green_FileName      @"green.png"
+#define             kGem_Yellow_FileName     @"yellow.png"
+#define             kGem_Red_FileName        @"red.png"
+#define             kGem_Purple_FileName     @"purple.png"
+#define             kGem_Orange_FileName     @"orange.png"
+#define             kGem_Blue_FileName       @"blue.png"
 
 
 #define kNumGems            7
@@ -37,7 +37,7 @@
 
 
 #define kGameAreaStartX         20
-#define kGameAreaStartY         320
+#define kGameAreaStartY         460
 #define kGameAreaHeight         320
 
 #define kGame_FocusGem_Tag      111
