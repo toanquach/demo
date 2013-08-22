@@ -309,22 +309,22 @@
     [aGem setGemState:kGemMoving];
     
     // Move the gem, play sound, let it rest
-//    CCMoveTo *moveIt = [CCMoveTo
-//                        actionWithDuration:0.02
-//                        position:[self positionForRow:[aGem rowNum]
-//                                            andColumn:[aGem colNum]]];
-//    CCCallFunc *playSound = [CCCallFunc
-//                             actionWithTarget:self
-//                             selector:@selector(playSwoosh)];
-//    CCCallFuncND *gemAtRest = [CCCallFuncND
-//                               actionWithTarget:self
-//                               selector:@selector(gemIsAtRest:) data:aGem];
-//    [aGem runAction:[CCSequence actions:moveIt,
-//                     playSound, gemAtRest, nil]];
+    CCMoveTo *moveIt = [CCMoveTo
+                        actionWithDuration:0.2
+                        position:[self positionForRow:[aGem rowNum]
+                                            andColumn:[aGem colNum]]];
+    CCCallFunc *playSound = [CCCallFunc
+                             actionWithTarget:self
+                             selector:@selector(playSwoosh)];
+    CCCallFuncND *gemAtRest = [CCCallFuncND
+                               actionWithTarget:self
+                               selector:@selector(gemIsAtRest:) data:aGem];
+    [aGem runAction:[CCSequence actions:moveIt,
+                     playSound, gemAtRest, nil]];
     
-    aGem.position = [self positionForRow:[aGem rowNum] andColumn:[aGem colNum]];
-    [self gemIsAtRest:aGem];
-    [self playSwoosh];
+//    aGem.position = [self positionForRow:[aGem rowNum] andColumn:[aGem colNum]];
+//    [self gemIsAtRest:aGem];
+//    [self playSwoosh];
     
     //NSLog(@" Point >>>>>gemId %d: %@",aGem.gemType,NSStringFromCGPoint(aGem.position));
 }
@@ -449,7 +449,10 @@
         {
             // Set thisGem to drop down one row
             [thisGem setRowNum:thisGem.rowNum - 1];
-            [self moveToNewSlotForGem:thisGem];
+            //[self moveToNewSlotForGem:thisGem];
+            thisGem.position = [self positionForRow:[thisGem rowNum] andColumn:[thisGem colNum]];
+            [self gemIsAtRest:thisGem];
+            [self playSwoosh];
         }
     }
     
